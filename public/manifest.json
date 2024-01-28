@@ -6,11 +6,11 @@
     "service_worker": "background.js"
   },
   "content_scripts": [{
-    "matches": ["https://www.youtube.com/*"],
+    "matches": ["*://www.youtube.com/*", "*://youtube.com/*"],
     "js": ["contentScript.js"]
   }],
   "permissions": [
-      "tabs",
-      "https://www.youtube.com/*"
+    "webNavigation",
+    "tabs"
   ]
 }
