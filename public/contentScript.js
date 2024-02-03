@@ -66,8 +66,8 @@ function addButton() {
       style.textContent = `
     #downloadButton {
       position: absolute;
-      top: 17px;
-      right: 1240px;
+      top: 12px;
+      left: 178px;
       display: none;
 }
             .button-30:hover {
@@ -80,13 +80,18 @@ function addButton() {
               box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
           }
           .button-30 {
-            background-image:url('https://cdn-icons-png.flaticon.com/256/189/189249.png');
+            background-image:url('https://raw.githubusercontent.com/barantaran/youtube-downloader/fix-button/src/img.png');
             background-repeat: no-repeat;
-            background-size: 16px;
+            background-size: 95%;
+            background-position: center;
               align-items: center;
               appearance: none;
               background-color: #FCFCFD;
-              border-radius: 4px;
+              border-radius: 80%;
+              width: 36px; /* Ширина кнопки */
+              height: 36px; /* Высота кнопки */
+              padding: 0; /* Убираем отступы внутри кнопки */
+              border: none; /* Убираем границу кнопки */
               border-width: 0;
               box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
               box-sizing: border-box;
@@ -94,7 +99,6 @@ function addButton() {
               cursor: pointer;
               display: inline-flex;
               font-family: "JetBrains Mono",monospace;
-              height: 48px;
               justify-content: center;
               line-height: 1;
               list-style: none;
